@@ -11,13 +11,13 @@ def main():
     white = 255, 255, 255
 
     #se carga una imagen
-    ball = pygame.image.load('c:/Users/efren/Documents/Tec de Monterrey/5to semestre/Semana tec herramientas computacionales/pelotapixar.png')
+    ball = pygame.image.load('c:/Users/efren/Documents/Tec de Monterrey/5to semestre/Semana tec herramientas computacionales/Pingpong/pelotapixar.png')
     ballrect = ball.get_rect();
 
     #barra de rebote
-    barra = pygame.image.load('c:/Users/efren/Documents/Tec de Monterrey/5to semestre/Semana tec herramientas computacionales/barra.png')
+    barra = pygame.image.load('c:/Users/efren/Documents/Tec de Monterrey/5to semestre/Semana tec herramientas computacionales/Pingpong/barra.png')
     barrarect = barra.get_rect()
-    barra2 = pygame.image.load('c:/Users/efren/Documents/Tec de Monterrey/5to semestre/Semana tec herramientas computacionales/barra.png')
+    barra2 = pygame.image.load('c:/Users/efren/Documents/Tec de Monterrey/5to semestre/Semana tec herramientas computacionales/Pingpong/barra.png')
     barrarect2 = barra2.get_rect()
 
     #se ubica la barra a la mita de la ventana
